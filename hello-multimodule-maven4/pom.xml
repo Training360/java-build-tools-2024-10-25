@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.1.0 https://maven.apache.org/xsd/maven-4.1.0.xsd">
+    <groupId>training</groupId>
+    <artifactId>hello-multimodule</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <subprojects>
+        <subproject>hello-backend</subproject>
+        <subproject>hello-frontend</subproject>
+        <subproject>hello-it</subproject>
+    </subprojects>
+
+    <packaging>pom</packaging>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+</project>
